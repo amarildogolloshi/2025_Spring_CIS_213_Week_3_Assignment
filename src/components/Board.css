@@ -1,0 +1,11 @@
+
+.board {
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    justify-items: center;
+    /* width: 24.6rem; */
+    border: 4px solid darkblue;
+    border-radius: 10px;
+}
